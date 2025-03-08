@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-shadow: 0 0 10px #111;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 15vw;
+    max-height: 15vh;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 4vw 4vw;
+    box-shadow: 0 15px 15px #222;
+    text-align: center;
+    padding-bottom: 2vw;
+    background: linear-gradient(#2f2f2f 50%, #2f2f2ff1 75%);
+}
+
+.img-wsp {
+    position: absolute;
+    width: 8vh;
+    height: 8vh;
+    bottom: 9vh;
+    right: 1vw;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 3vw;
+    margin: 0 0 2vh 0;
+    padding: 1%;
+}
+
+h2 {
+    font-size: 2vw;
+    text-align: center;
+    padding: 0 0 1vw 0;
+}
+
+h3 {
+    font-size: 1.4vw;
+    margin: 0 2% 1vw 2%;
+}
+
+p {
+    font-size: 1vw;
+    color: #ededed;
+    margin: 2% 2% 2% 2%;
+}
+
+a {
+    text-decoration: none;
+    color: #39a;
+}
+
+details {
+    margin: 2% 2% 2% 4%;
+    font-size: 1vw;
+}
+
+details > ul {
+    margin: 2% 2% 2% 2%;
+    color: #ededed;
+}
+
+.aa:before {
+    display: block;
+    content: "";
+    margin-top: -17vh;
+    height: 17vh;  
+    visibility: hidden;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0.5vh;
+}
+
+nav a {
+    background-color: #333;
+    padding: 1vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+    font-size: 2vw;
+}
+
+body {
+    margin: 0;
+    background-color: #444;
+    color: #7f7;
+}
+
+.container {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 2% 2% 2% 2%;
+    margin: 2% 2% 0 2%;
+    box-shadow: 0 0 15px #222;
+}
+
+main > p {
+    margin: 1% 2% 0 4%;
+}
+
+.images-relation {
+    width: 22.2vw;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.image-long {
+    width: 44.5vw;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.links-container  ul {
+    margin: 2% 2% 2% 2%;
+}
+
+.links-container li {
+    font-size: 1vw;
+    color: #39a;
+}
+
+.downloads-container {
+    text-align: center;
+}
+
+.downloads-container a {
+    font-size: 1.5vw;
+    margin: 2% 2% 2% 2%;
+    color: #39a;
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    max-height: 3vw;
+    background-color: #333;
+    padding: 0 2vh 2vh 2vh;
+    color: #ddd;
+    margin: 2% 0 0 0;
+    font-size: 1.5em;
+    border-top: 0.2vh solid #7f7;
+}
+

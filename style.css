@@ -36,24 +36,24 @@ header {
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 5vw;
     margin: 0 0 2vh 0;
     padding: 1%;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 4vw;
     text-align: center;
-    padding: 0 0 1vw 0;
+    padding: 0 0 2vw 0;
 }
 
 h3 {
-    font-size: 1.4vw;
-    margin: 1vw 2% 1vw 2%;
+    font-size: 3vw;
+    margin: 2vw 2% 3vw 2%;
 }
 
 p {
-    font-size: 1vw;
+    font-size: 2vw;
     color: #ededed;
     margin: 2% 2% 2% 2%;
 }
@@ -65,7 +65,7 @@ a {
 
 details {
     margin: 2% 2% 2% 4%;
-    font-size: 1vw;
+    font-size: 2vw;
 }
 
 details > ul {
@@ -133,7 +133,7 @@ main > p {
 }
 
 .links-container li {
-    font-size: 1vw;
+    font-size: 2vw;
     color: #39a;
 }
 
@@ -142,7 +142,7 @@ main > p {
 }
 
 .downloads-container a {
-    font-size: 1.5vw;
+    font-size: 3vw;
     margin: 2% 2% 2% 2%;
     color: #39a;
 }

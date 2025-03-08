@@ -44,12 +44,12 @@ h1 {
 h2 {
     font-size: 2vw;
     text-align: center;
-    padding: 2vw 0 2vw 0;
+    padding: 0 0 1vw 0;
 }
 
 h3 {
     font-size: 1.4vw;
-    margin: 0 2% 1vw 2%;
+    margin: 1vw 2% 1vw 2%;
 }
 
 p {
